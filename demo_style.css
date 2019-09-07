@@ -1,0 +1,43 @@
+body
+{
+	background-image:url('3.jpg');
+	background-repeat:round;
+
+
+}
+#div_2
+{
+	background-color: rgba(255,255,251,0.3);
+	font-family: Arial;
+	text-align: center;
+	color: rgb(0,0,0);
+}
+#div_1
+{
+	font-size: 30px;
+	font-family:  times new roman;
+	margin:15% 20% 0% 35%;
+	color:rgb(255,255,255);
+}
+#eml_usrname
+{
+	font-size: 20px;
+	background-color: rgba(234,199,54,0.8);
+}
+#txt_passwd
+{
+	font-size: 20px;
+	background-color: rgba(234,199,54,0.6);
+}
+#btn_submit
+{
+	background-color:grey;
+	font-size: 20px;
+	font-family:times new roman;
+}
+#btn_reset
+{
+	background-color:grey;
+	font-size: 20px;
+	font-family:times new roman;
+}
