@@ -1,0 +1,49 @@
+#section1								/*Main div (full sheet)*/
+{
+	width:700px;
+	height: 800px;
+	border:2px solid black;
+	box-shadow: 10px 10px 20px;
+	margin:auto;
+	background:none;
+}
+#section3								/*horizontal div on the top of sheet*/
+{
+	width:700px;
+	height:100px;
+	border-bottom: 2px solid black;
+	position: absolute;
+	background:none;
+}
+
+#section2								/*Vertical div on the left side*/
+{
+	width: 100px;
+	height:800px;
+	border-right:2px solid black;
+	background:none;
+
+}
+#hr_1									/*formatting of first <hr/> tag*/
+{
+	margin-top:6%;
+}
+#hr_n									/*formatting of all other left <hr/> tag*/
+{
+	margin-top: 25px;
+}
+#section4								/*section for date and page number on top right corner*/
+{
+	width: 150px;
+	height: 46px;
+	border:2px solid black;
+	margin-left: 70%;
+	margin-top: 5%;
+	border-radius: 20px;
+
+}
+#date									/*formatting text in section4*/
+{
+	margin-top:3px;
+	margin-left:10px;
+}
