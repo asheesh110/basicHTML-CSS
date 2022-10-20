@@ -1,0 +1,49 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Login</title>
+		<link rel="stylesheet" type="text/css" href="login_style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		
+		
+	</head>
+
+
+	<body>	
+
+	<div id="div_1">
+		<form>
+			<h2 style="margin-top: -50px; color:white; margin-left:42%; font-size: 40px;">LOGIN</h2>
+			<img src="Logo.png" alt="logo" style="width:100px; height:100px; margin-left:180px;">
+			<input type="text" id="eml_usrname" placeholder="Enter Username" required/><br/>
+			<input type="password" id="txt_passwd" placeholder="Enter password" required/><br/><br/>
+			<label for="html" id="lbl" style ="background-color: transparent; border:none; margin-left: 70px; font-size: 15px;margin-top:-20px;color:red;"></label>
+			<input type="submit" id="btn_submit" value="Submit" onclick="validate();" />
+			<a href="" id="cna">Create new Account</a><br/>
+			<a href="" id="fp" >Forget Password?</a>
+		</form>
+	</div>
+		
+	<script>
+		function validate()
+		{
+			var password = document.getElementById('txt_passwd').value;
+			var username = document.getElementById('eml_usrname').value;
+			if(password.length<8)
+			{
+				document.getElementById('lbl').innerHTML='password must be 8 characters or more';
+			}
+			else{
+				alert('login successful')
+			}
+		}
+	</script>
+
+	
+		
+
+	</body>
+</html> 

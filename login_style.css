@@ -1,0 +1,94 @@
+body
+{
+	background-image:url("Login3.jpg");
+	background-repeat:no-repeat;
+	position:relative;
+
+}
+
+#div_1
+{
+	position:inherit;
+	width: 400px;
+	height:400px;
+	margin-left: 34%;
+	padding-top: 100px;
+	font-size: 30px;
+	font-family:  times new roman;
+	opacity: 0.9;
+	border-radius: 20px;
+
+}
+#eml_usrname
+{
+	margin-left:60px;
+	margin-top:60px;
+	font-size: 20px;
+	background-color:#222f3e;
+	width:350px;
+	height:45px;
+	border-radius: 25px;
+	border-style: ridge;
+	padding-left:15px;
+	color: white;
+	outline: 0px;
+	transition:0.25s;
+}
+#txt_passwd
+{
+	margin-left:60px;
+	margin-top:30px;
+	font-size: 20px;
+	background-color:#222f3e;
+	width:350px;
+	height:45px;
+	border-radius: 25px;	
+	color: white;
+	border-style: ridge;
+	padding-left:15px;
+	outline: 0px;
+	transition: 0.25s;
+}
+::placeholder{
+	text-align: center;
+	color:wheat;
+}
+#btn_submit
+{
+	margin-left:60px;
+	margin-top:30px;
+	font-size: 25px;
+	background-color:#ff6b6b;
+	width:350px;
+	height:45px;	
+	border-style: ridge;
+	color:white;
+	border-width: 0.01cm;
+	outline: 0px;
+}
+#btn_submit:hover
+{
+	margin-left:60px;
+	margin-top:30px;
+	font-size: 25px;
+	background-color:#ED4C67;
+	width:350px;
+	height:45px;	
+	border-style: ridge;
+	color:white;
+	border-width: 0.01cm;
+	outline: 0px;
+}
+#cna,#fp{
+	font-style:normal; 
+	color:aliceblue;
+	font-size: 20px; 
+	margin-left: 230px;
+}
+#cna:hover{
+	color:brown;
+}
+#fp:hover{
+	color:brown;
+}
+
